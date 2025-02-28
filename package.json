@@ -1,0 +1,17 @@
+{
+  "name": "revern-airdrop",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "firebase": "^9.x.x",
+    "framer-motion": "^7.x.x",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
