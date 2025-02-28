@@ -1,0 +1,42 @@
+.container {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.header {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid #00ffcc55;
+}
+
+h1 {
+  font-family: 'Space Mono', monospace;
+  color: #00ffcc;
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+button {
+  background: linear-gradient(90deg, #00ffcc, #00ccff);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  color: #0f0c29;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.google-btn {
+  background: linear-gradient(90deg, #4285F4, #34A853);
+  color: white;
+}
+
+.profile p {
+  font-size: 2rem;
+  background: linear-gradient(90deg, #ff00ff, #00ffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
